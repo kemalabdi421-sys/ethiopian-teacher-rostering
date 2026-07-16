@@ -124,12 +124,12 @@ src/
 **Method 1: Quick Add Button**
 - Click the "+ Add Teacher" button in the header
 - Fill in the teacher details:
-  - **Name** (required)
-  - **Email** (required, unique)
-  - **Phone Number** (optional)
-  - **Region** (required - select from dropdown)
-  - **School Name** (optional)
-  - **Subjects** (add multiple subjects)
+  - **Name** (kemal Abdi)
+  - **Email** (kemalabdi421@gmail.com)
+  - **Phone Number** (0939908046)
+  - **Region** (required - select from Oromia)
+  - **School Name** (Gada Birmaji)
+  - **Subjects** (English, mathematics, general science, afaan oromo ect)
   - **Qualifications** (optional)
   - **Biography** (optional)
   - **Profile Picture** (optional)
