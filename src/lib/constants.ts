@@ -1,0 +1,3 @@
+import { ETHIOPIAN_REGIONS, COMMON_SUBJECTS } from './mockData';
+
+export { ETHIOPIAN_REGIONS, COMMON_SUBJECTS };

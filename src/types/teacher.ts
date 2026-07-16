@@ -1,29 +1,16 @@
-export type Region = 
-  | 'Addis Ababa' 
-  | 'Afar' 
-  | 'Amhara' 
-  | 'Benishangul-Gumuz' 
-  | 'Dire Dawa' 
-  | 'Gambela' 
-  | 'Harari' 
-  | 'Oromia' 
-  | 'Sidama' 
-  | 'Somali' 
-  | 'South West Ethiopia' 
-  | 'Southern Nations, Nationalities, and Peoples' 
-  | 'Tigray';
-
 export interface Teacher {
   id: string;
   name: string;
-  phone_number: string;
   email: string;
+  phone_number: string;
   subjects: string[];
   school_name: string;
-  region: Region;
+  region: string;
   qualifications: string;
   biography: string;
-  profile_image_url: string;
+  profile_image_url?: string;
   created_at: string;
   updated_at: string;
 }
+
+export type TeacherInput = Omit<Teacher, 'id' | 'created_at' | 'updated_at'>;
